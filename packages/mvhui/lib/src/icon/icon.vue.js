@@ -1,0 +1,1 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const e=require("vue");require("./style/index.css");const n=e.defineComponent({name:"mu-icon"}),t=e.defineComponent({...n,setup(o){return(u,r)=>(e.openBlock(),e.createElementBlock("span",null,"icon"))}});exports.default=t;

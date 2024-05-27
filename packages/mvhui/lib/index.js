@@ -1,0 +1,1 @@
+"use strict";Object.defineProperties(exports,{__esModule:{value:!0},[Symbol.toStringTag]:{value:"Module"}});const u=require("./src/index.js"),l={install:e=>{Object.values(u).forEach(t=>{e.use(t)})}};exports.default=l;

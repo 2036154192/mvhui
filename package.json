@@ -1,0 +1,33 @@
+{
+  "name": "muui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:muui": "gulp -f packages/components/script/build/index.ts",
+    "publish:muui": "gulp -f packages/components/script/publish/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^3.4.27"
+  },
+  "devDependencies": {
+    "@types/gulp": "^4.0.17",
+    "@types/gulp-autoprefixer": "^0.0.37",
+    "@types/gulp-less": "^0.0.36",
+    "@types/node": "^20.12.12",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/runtime-core": "^3.4.27",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-less": "^5.0.0",
+    "less": "^4.2.0",
+    "release-it": "^17.3.0",
+    "sucrase": "^3.35.0",
+    "unplugin-vue-define-options": "^1.4.5",
+    "vite": "^5.2.11",
+    "vite-plugin-dts": "1.4.1"
+  }
+}
