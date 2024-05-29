@@ -87,12 +87,9 @@ importers:
 
   site:
     dependencies:
-      muui:
-        specifier: workspace:^
-        version: link:..
       mvhui:
         specifier: workspace:^
-        version: link:../packages/mvhui
+        version: link:..
     devDependencies:
       vitepress:
         specifier: ^1.2.2

@@ -1,7 +1,8 @@
 export default {
-  base: '/mvhui-document/',
+  base: '/',
   themeConfig: {
-    siteTitle: "vitepress",
+    siteTitle: "mvhui",
+    logo:'img/logo.jpg',
     nav: [
       { text: "指南", link: "/guild/installation" },
       { text: "组件", link: "/components/button/" },
@@ -12,8 +13,12 @@ export default {
     sidebar: {
       "/guild/": [
         {
-          text: "基础",
+          text: "开始",
           items: [
+            {
+              text: "设计",
+              link: "/guild/design",
+            }, 
             {
               text: "安装",
               link: "/guild/installation",
